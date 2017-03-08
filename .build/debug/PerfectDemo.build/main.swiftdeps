@@ -1,0 +1,197 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "server"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "signupRoutes"
+- "PerfectError"
+- "StringLiteralType"
+- "UnicodeScalarType"
+- "AssignmentPrecedence"
+- "server"
+- "print"
+- "HTTPServer"
+- "IntegerLiteralType"
+- "FloatLiteralType"
+depends-member:
+- ["Ps9AnyObject", "addRoutes"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "serverPort"]
+- ["Ps9AnyObject", "start"]
+- ["Sb", "deinit"]
+- ["Ps7CVarArg", "init"]
+- ["Vs9Character", "deinit"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Sd", "deinit"]
+- ["Ps9Equatable", "init"]
+- ["Ps5Error", "networkError"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Sf", "deinit"]
+- ["C17PerfectHTTPServer10HTTPServer", "addRoutes"]
+- ["C17PerfectHTTPServer10HTTPServer", "deinit"]
+- ["C17PerfectHTTPServer10HTTPServer", "init"]
+- ["C17PerfectHTTPServer10HTTPServer", "serverPort"]
+- ["C17PerfectHTTPServer10HTTPServer", "start"]
+- ["Ps8Hashable", "init"]
+- ["Si", "deinit"]
+- ["Vs5Int16", "deinit"]
+- ["Vs5Int32", "deinit"]
+- ["Vs5Int64", "deinit"]
+- ["Vs4Int8", "deinit"]
+- ["P10PerfectLib15JSONConvertible", "init"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["O10PerfectLib12PerfectError", "networkError"]
+- ["V11PerfectHTTP6Routes", "deinit"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- ["Vs6UInt16", "deinit"]
+- ["Vs6UInt32", "deinit"]
+- ["Vs6UInt64", "deinit"]
+- ["Vs5UInt8", "deinit"]
+- ["Sc", "deinit"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "Ps7CVarArg"
+- "Vs9Character"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- "Ps5Error"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Sf"
+- "C17PerfectHTTPServer10HTTPServer"
+- "Ps8Hashable"
+- "Si"
+- "Vs5Int16"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Vs4Int8"
+- "P10PerfectLib15JSONConvertible"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "O10PerfectLib12PerfectError"
+- "V11PerfectHTTP6Routes"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Su"
+- "Vs6UInt16"
+- "Vs6UInt32"
+- "Vs6UInt64"
+- "Vs5UInt8"
+- "Sc"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectLib.swiftmodule"
+- "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectHTTP.swiftmodule"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../ssl.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../srtp.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../ssl23.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../pqueue.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../dtls1.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../tls1.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../ssl3.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../ssl2.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../opensslconf.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../kssl.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../hmac.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../pem2.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../e_os2.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../pem.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../pkcs7.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../x509_vfy.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../sha.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../dh.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../dsa.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../rsa.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../ecdh.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../ecdsa.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../ec.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../bn.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../asn1.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../obj_mac.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../objects.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../evp.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../buffer.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../x509.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../comp.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../lhash.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../err.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../symhacks.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../ossl_typ.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../opensslv.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../safestack.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../stack.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../crypto.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../bio.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/openssl.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/module.modulemap"
+- "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectNet.swiftmodule"
+- "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectThread.swiftmodule"
+- "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectHTTPServer.swiftmodule"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CHTTPParser/include/http_parser.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CZlib/include/module.modulemap"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CHTTPParser/include/module.modulemap"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CZlib/include/../inftrees.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CZlib/include/../zutil.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CZlib/include/../zlib.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CZlib/include/../zconf.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CZlib/include/czlib.h"
+interface-hash: "208df4998b117423f8900931232014fa"

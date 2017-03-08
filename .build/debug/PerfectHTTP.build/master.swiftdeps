@@ -1,0 +1,13 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "78d6ec9677c57c9093ac3bb8a65ead89"
+build_time: [542286788, 330325000]
+inputs:
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTP-2.1.6/Sources/HTTPFilter.swift": [542180316, 0]
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTP-2.1.6/Sources/HTTPHeaders.swift": [542180316, 0]
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTP-2.1.6/Sources/HTTPMethod.swift": [542180316, 0]
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTP-2.1.6/Sources/HTTPRequest.swift": [542180316, 0]
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTP-2.1.6/Sources/HTTPResponse.swift": [542180316, 0]
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTP-2.1.6/Sources/MimeReader.swift": [542180316, 0]
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTP-2.1.6/Sources/MimeType.swift": [542180316, 0]
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTP-2.1.6/Sources/Routing.swift": [542180316, 0]
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTP-2.1.6/Sources/StaticFileHandler.swift": [542180316, 0]

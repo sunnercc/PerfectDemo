@@ -1,22 +1,30 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "01A096265961E0EA4D2C1417857253794BCDE98D",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "01A096265961E0EA4D2C1417857253794BCDE98D" : 9223372036854775807,
+    "6F1260245BD69EFA9A05D126763C86280510C6E1" : 9223372036854775807,
     "C4127C9B9C8FDF608B532AD72407863CE2797629" : 9223372036854775807,
-    "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : 9223372036854775807,
-    "6F1260245BD69EFA9A05D126763C86280510C6E1" : 9223372036854775807
+    "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "21975AE4-7417-41DC-8A44-B7A23F7A725D",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "01A096265961E0EA4D2C1417857253794BCDE98D" : "PerfectDemo\/",
+    "6F1260245BD69EFA9A05D126763C86280510C6E1" : "PerfectDemo\/Packages\/PerfectNet-2.1.5\/",
     "C4127C9B9C8FDF608B532AD72407863CE2797629" : "PerfectDemo\/Packages\/PerfectHTTPServer-2.1.14\/",
-    "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : "PerfectDemo\/Packages\/PerfectHTTP-2.1.6\/",
-    "6F1260245BD69EFA9A05D126763C86280510C6E1" : "PerfectDemo\/Packages\/PerfectNet-2.1.5\/"
+    "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : "PerfectDemo\/Packages\/PerfectHTTP-2.1.6\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "PerfectDemo",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PerfectDemo.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chenchenhui\/PerfectDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "01A096265961E0EA4D2C1417857253794BCDE98D"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PerfectlySoft\/Perfect-Net.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",

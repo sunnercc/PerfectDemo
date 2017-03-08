@@ -6,6 +6,8 @@
 //
 //
 
+import Foundation
+
 import PerfectLib
 
 import PerfectHTTP
@@ -21,7 +23,7 @@ func addURLRoutes()-> Routes {
     
     var routes = Routes()
     
-    routes.add(method: .get, uri: "/", handler: helloHandler)
+    routes.add(method: .get, uri: "/index", handler: helloHandler)
     
     return routes;
     
@@ -29,9 +31,30 @@ func addURLRoutes()-> Routes {
 
 func helloHandler(request: HTTPRequest, _ response: HTTPResponse) {
     
-    response.setHeader(.contentType, value: "text/html")
+    guard let user = request.param(name: "user") else {
+        
+        response.completed(status: HTTPResponseStatus.requestTimeout)
+        
+        return;
+    }
     
-    response.appendBody(string: "HelloHello World")
+    guard let pass = request.param(name: "pass") else {
+        
+        response.completed(status: HTTPResponseStatus.requestTimeout)
+        
+        return;
+    }
+
+    var msg = ""
+    
+    if user.compare("chenchenhui") == ComparisonResult.orderedSame
+        && pass.compare("123") == ComparisonResult.orderedSame{
+        msg = "success"
+    } else {
+        msg = "failed"
+    }
+    
+    response.setBody(string: msg)
     
     response.completed()
     

@@ -1,0 +1,242 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "signupRoutes"
+- "addURLRoutes"
+- "helloHandler"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "helloHandler"
+- "addURLRoutes"
+- !private "StringLiteralType"
+- "Routes"
+- "HTTPResponse"
+- "HTTPRequest"
+- !private "HTTPResponseStatus"
+- !private "=="
+- !private "ComparisonResult"
+- "AssignmentPrecedence"
+- !private "&&"
+- "signupRoutes"
+depends-member:
+- !private ["Ps9AnyObject", "compare"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "compare"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Comparable", "compare"]
+- !private ["Ps10Comparable", "init"]
+- !private ["OSC16ComparisonResult", "RawValue"]
+- ["OSC16ComparisonResult", "deinit"]
+- !private ["OSC16ComparisonResult", "orderedSame"]
+- !private ["Ps28CustomDebugStringConvertible", "compare"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "compare"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "compare"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "compare"]
+- !private ["Ps23CustomStringConvertible", "get"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "requestTimeout"]
+- !private ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "compare"]
+- !private ["Ps9Equatable", "get"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "orderedSame"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "compare"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "compare"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "compare"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "compare"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["O11PerfectHTTP10HTTPMethod", "deinit"]
+- !private ["O11PerfectHTTP10HTTPMethod", "get"]
+- ["P11PerfectHTTP11HTTPRequest", "deinit"]
+- !private ["P11PerfectHTTP11HTTPRequest", "param"]
+- !private ["P11PerfectHTTP12HTTPResponse", "completed"]
+- ["P11PerfectHTTP12HTTPResponse", "deinit"]
+- !private ["P11PerfectHTTP12HTTPResponse", "setBody"]
+- ["O11PerfectHTTP18HTTPResponseStatus", "deinit"]
+- !private ["O11PerfectHTTP18HTTPResponseStatus", "requestTimeout"]
+- !private ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "compare"]
+- !private ["Ps8Hashable", "get"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "orderedSame"]
+- !private ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
+- !private ["P10PerfectLib15JSONConvertible", "compare"]
+- !private ["P10PerfectLib15JSONConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "compare"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "compare"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "compare"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "compare"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "compare"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "compare"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "compare"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "compare"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "compare"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "RawValue"]
+- !private ["Ps16RawRepresentable", "orderedSame"]
+- !private ["V11PerfectHTTP6Routes", "add"]
+- ["V11PerfectHTTP6Routes", "deinit"]
+- !private ["V11PerfectHTTP6Routes", "init"]
+- !private ["SS", "compare"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "compare"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "compare"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "compare"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "compare"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "compare"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "compare"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "compare"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "RawValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "compare"]
+- !private ["Ps9_Hashable", "get"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "orderedSame"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "compare"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "OSC16ComparisonResult"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "O11PerfectHTTP10HTTPMethod"
+- "P11PerfectHTTP11HTTPRequest"
+- "P11PerfectHTTP12HTTPResponse"
+- "O11PerfectHTTP18HTTPResponseStatus"
+- !private "Ps8Hashable"
+- !private "P10PerfectLib15JSONConvertible"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- "V11PerfectHTTP6Routes"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectLib.swiftmodule"
+- "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectHTTP.swiftmodule"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../ssl.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../srtp.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../ssl23.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../pqueue.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../dtls1.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../tls1.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../ssl3.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../ssl2.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../opensslconf.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../kssl.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../hmac.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../pem2.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../e_os2.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../pem.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../pkcs7.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../x509_vfy.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../sha.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../dh.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../dsa.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../rsa.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../ecdh.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../ecdsa.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../ec.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../bn.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../asn1.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../obj_mac.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../objects.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../evp.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../buffer.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../x509.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../comp.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../lhash.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../err.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../symhacks.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../ossl_typ.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../opensslv.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../safestack.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../stack.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../crypto.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/../bio.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/openssl.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/COpenSSL-2.0.3/COpenSSL/include/module.modulemap"
+- "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectNet.swiftmodule"
+- "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectThread.swiftmodule"
+- "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectHTTPServer.swiftmodule"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CHTTPParser/include/http_parser.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CZlib/include/module.modulemap"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CHTTPParser/include/module.modulemap"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CZlib/include/../inftrees.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CZlib/include/../zutil.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CZlib/include/../zlib.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CZlib/include/../zconf.h"
+- "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CZlib/include/czlib.h"
+interface-hash: "242f71001c9d8dcf3ecba833c56f8387"

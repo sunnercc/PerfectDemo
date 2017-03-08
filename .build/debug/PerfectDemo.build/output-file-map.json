@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectDemo.build/master.swiftdeps"
+  },
+  "/Users/ifuwo/Projects/PerfectDemo/Sources/main.swift": {
+    "dependencies": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectDemo.build/main.d",
+    "object": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectDemo.build/main.swift.o",
+    "swiftmodule": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectDemo.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectDemo.build/main.swiftdeps"
+  },
+  "/Users/ifuwo/Projects/PerfectDemo/Sources/routeHandllers.swift": {
+    "dependencies": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectDemo.build/routeHandllers.d",
+    "object": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectDemo.build/routeHandllers.swift.o",
+    "swiftmodule": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectDemo.build/routeHandllers~partial.swiftmodule",
+    "swift-dependencies": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectDemo.build/routeHandllers.swiftdeps"
+  }
+}

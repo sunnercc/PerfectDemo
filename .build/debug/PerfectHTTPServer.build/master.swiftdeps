@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "e5ca2be125e394fa9ed2d49d8d66ebd1"
+build_time: [542286789, 452919000]
+inputs:
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/PerfectHTTPServer/HPACK.swift": [542180256, 0]
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/PerfectHTTPServer/HTTP11Request.swift": [542180256, 0]
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/PerfectHTTPServer/HTTP11Response.swift": [542180256, 0]
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/PerfectHTTPServer/HTTP2.swift": [542180256, 0]
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/PerfectHTTPServer/HTTPContentCompression.swift": [542180256, 0]
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/PerfectHTTPServer/HTTPServer.swift": [542180256, 0]
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/PerfectHTTPServer/HTTPServerEx.swift": [542180256, 0]
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/PerfectHTTPServer/HTTPServerExConfig.swift": [542180256, 0]

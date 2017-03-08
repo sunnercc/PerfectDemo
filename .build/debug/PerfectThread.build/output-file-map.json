@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectThread.build/master.swiftdeps"
+  },
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectThread-2.0.9/Sources/Promise.swift": {
+    "dependencies": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectThread.build/Promise.d",
+    "object": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectThread.build/Promise.swift.o",
+    "swiftmodule": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectThread.build/Promise~partial.swiftmodule",
+    "swift-dependencies": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectThread.build/Promise.swiftdeps"
+  },
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectThread-2.0.9/Sources/Threading.swift": {
+    "dependencies": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectThread.build/Threading.d",
+    "object": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectThread.build/Threading.swift.o",
+    "swiftmodule": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectThread.build/Threading~partial.swiftmodule",
+    "swift-dependencies": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectThread.build/Threading.swiftdeps"
+  },
+  "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectThread-2.0.9/Sources/ThreadQueue.swift": {
+    "dependencies": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectThread.build/ThreadQueue.d",
+    "object": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectThread.build/ThreadQueue.swift.o",
+    "swiftmodule": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectThread.build/ThreadQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectThread.build/ThreadQueue.swiftdeps"
+  }
+}
