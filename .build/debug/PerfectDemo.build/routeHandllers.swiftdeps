@@ -8,6 +8,9 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "helloHandler"
+- !private "ComparisonResult"
+- !private "print"
+- !private "&&"
 - "addURLRoutes"
 - !private "StringLiteralType"
 - "Routes"
@@ -15,9 +18,7 @@ depends-top-level:
 - "HTTPRequest"
 - !private "HTTPResponseStatus"
 - !private "=="
-- !private "ComparisonResult"
 - "AssignmentPrecedence"
-- !private "&&"
 - "signupRoutes"
 depends-member:
 - !private ["Ps9AnyObject", "compare"]

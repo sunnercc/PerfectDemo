@@ -35,12 +35,16 @@ func helloHandler(request: HTTPRequest, _ response: HTTPResponse) {
         
         response.completed(status: HTTPResponseStatus.requestTimeout)
         
+        print("requestTimeout")
+        
         return;
     }
     
     guard let pass = request.param(name: "pass") else {
         
         response.completed(status: HTTPResponseStatus.requestTimeout)
+        
+        print("requestTimeout")
         
         return;
     }
@@ -50,8 +54,13 @@ func helloHandler(request: HTTPRequest, _ response: HTTPResponse) {
     if user.compare("chenchenhui") == ComparisonResult.orderedSame
         && pass.compare("123") == ComparisonResult.orderedSame{
         msg = "success"
+        
+        print("success")
+        
     } else {
         msg = "failed"
+        
+        print("failed")
     }
     
     response.setBody(string: msg)
