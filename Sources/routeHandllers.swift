@@ -23,49 +23,42 @@ func addURLRoutes()-> Routes {
     
     var routes = Routes()
     
-    routes.add(method: .get, uri: "/index", handler: helloHandler)
+    routes.add(method: .post, uri: "/index", handler: postRequestHandler)
     
     return routes;
     
 }
 
-func helloHandler(request: HTTPRequest, _ response: HTTPResponse) {
+
+/// post 请求
+func postRequestHandler(request: HTTPRequest, _ response: HTTPResponse) {
     
     guard let user = request.param(name: "user") else {
-        
-        response.completed(status: HTTPResponseStatus.requestTimeout)
-        
-        print("requestTimeout")
-        
-        return;
+        response.completed(status: .badRequest)
+        return
     }
     
     guard let pass = request.param(name: "pass") else {
-        
-        response.completed(status: HTTPResponseStatus.requestTimeout)
-        
-        print("requestTimeout")
-        
-        return;
+        response.completed(status: .badRequest)
+        return
     }
-
-    var msg = ""
     
     if user.compare("chenchenhui") == ComparisonResult.orderedSame
-        && pass.compare("123") == ComparisonResult.orderedSame{
-        msg = "success"
+        && pass.compare("123") == ComparisonResult.orderedSame {
         
-        print("success")
+        let values = ["code" : "10000",
+                      "msg" : "success",
+                      "data" : "data"];
         
-    } else {
-        msg = "failed"
-        
-        print("failed")
+        do {
+            let jsonData = try values.jsonEncodedString()
+            try response.setBody(json: jsonData)
+        } catch {
+            response.completed(status: .badRequest)
+            return;
+        }
     }
-    
-    response.setBody(string: msg)
-    
     response.completed()
     
-    
 }
+

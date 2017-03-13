@@ -7,44 +7,59 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "helloHandler"
-- !private "ComparisonResult"
-- !private "print"
-- !private "&&"
 - "addURLRoutes"
+- !private "ComparisonResult"
+- !private "&&"
+- !private "print"
+- "helloHandler"
 - !private "StringLiteralType"
-- "Routes"
-- "HTTPResponse"
-- "HTTPRequest"
-- !private "HTTPResponseStatus"
-- !private "=="
-- "AssignmentPrecedence"
+- !private "Dictionary"
 - "signupRoutes"
+- !private "=="
+- !private "HTTPResponseStatus"
+- !private "JSONConvertibleObject"
+- "Routes"
+- "HTTPRequest"
+- "HTTPResponse"
 depends-member:
 - !private ["Ps9AnyObject", "compare"]
 - !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "setJSONValues"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "Value"]
 - !private ["Ps7CVarArg", "compare"]
 - !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
 - !private ["Ps10Comparable", "compare"]
 - !private ["Ps10Comparable", "init"]
 - !private ["OSC16ComparisonResult", "RawValue"]
 - ["OSC16ComparisonResult", "deinit"]
 - !private ["OSC16ComparisonResult", "orderedSame"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
 - !private ["Ps28CustomDebugStringConvertible", "compare"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "compare"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
 - !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
 - !private ["Ps17CustomReflectable", "compare"]
 - !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "Value"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "compare"]
 - !private ["Ps23CustomStringConvertible", "get"]
 - !private ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "requestTimeout"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
 - !private ["Ps9Equatable", "RawValue"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - !private ["Ps9Equatable", "compare"]
@@ -52,6 +67,8 @@ depends-member:
 - !private ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "orderedSame"]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "compare"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps32ExpressibleByStringInterpolation", "compare"]
@@ -75,9 +92,19 @@ depends-member:
 - !private ["Ps8Hashable", "get"]
 - !private ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "orderedSame"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["P10PerfectLib15JSONConvertible", "Key"]
+- !private ["P10PerfectLib15JSONConvertible", "Value"]
 - !private ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
 - !private ["P10PerfectLib15JSONConvertible", "compare"]
 - !private ["P10PerfectLib15JSONConvertible", "init"]
+- !private ["P10PerfectLib15JSONConvertible", "setJSONValues"]
+- ["C10PerfectLib21JSONConvertibleObject", "deinit"]
+- !private ["C10PerfectLib21JSONConvertibleObject", "init"]
+- !private ["C10PerfectLib21JSONConvertibleObject", "setJSONValues"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps25LosslessStringConvertible", "compare"]
 - !private ["Ps25LosslessStringConvertible", "init"]
@@ -103,6 +130,8 @@ depends-member:
 - !private ["V11PerfectHTTP6Routes", "add"]
 - ["V11PerfectHTTP6Routes", "deinit"]
 - !private ["V11PerfectHTTP6Routes", "init"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
 - !private ["SS", "compare"]
 - ["SS", "deinit"]
 - !private ["SS", "init"]
@@ -127,6 +156,8 @@ depends-member:
 - !private ["Ps9_Hashable", "get"]
 - !private ["Ps9_Hashable", "init"]
 - !private ["Ps9_Hashable", "orderedSame"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "compare"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
@@ -134,14 +165,17 @@ depends-nominal:
 - !private "Ps9AnyObject"
 - "Sb"
 - !private "Ps7CVarArg"
+- !private "Ps10Collection"
 - !private "Ps10Comparable"
 - "OSC16ComparisonResult"
 - !private "Ps28CustomDebugStringConvertible"
 - !private "Ps29CustomPlaygroundQuickLookable"
 - !private "Ps17CustomReflectable"
 - !private "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
 - !private "Ps9Equatable"
 - !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps32ExpressibleByStringInterpolation"
 - !private "Ps26ExpressibleByStringLiteral"
@@ -151,7 +185,10 @@ depends-nominal:
 - "P11PerfectHTTP12HTTPResponse"
 - "O11PerfectHTTP18HTTPResponseStatus"
 - !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
 - !private "P10PerfectLib15JSONConvertible"
+- "C10PerfectLib21JSONConvertibleObject"
 - !private "Ps25LosslessStringConvertible"
 - !private "Ps10MirrorPath"
 - !private "PSo8NSCoding"
@@ -164,6 +201,7 @@ depends-nominal:
 - "Sq"
 - !private "Ps16RawRepresentable"
 - "V11PerfectHTTP6Routes"
+- !private "Ps8Sequence"
 - "SS"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
