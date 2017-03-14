@@ -17,9 +17,9 @@ import PerfectHTTPServer
 public func signupRoutes()-> Routes {
     
     return addURLRoutes()
-    
 }
-func addURLRoutes()-> Routes {
+
+private func addURLRoutes()-> Routes {
     
     var routes = Routes()
     
@@ -31,7 +31,7 @@ func addURLRoutes()-> Routes {
 
 
 /// post 请求
-func postRequestHandler(request: HTTPRequest, _ response: HTTPResponse) {
+private func postRequestHandler(request: HTTPRequest, _ response: HTTPResponse) {
     
     guard let user = request.param(name: "user") else {
         response.completed(status: .badRequest)

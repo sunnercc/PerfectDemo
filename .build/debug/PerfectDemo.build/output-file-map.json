@@ -2,6 +2,12 @@
   "": {
     "swift-dependencies": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectDemo.build/master.swiftdeps"
   },
+  "/Users/ifuwo/Projects/PerfectDemo/Sources/accountsSqlHandlers.swift": {
+    "dependencies": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectDemo.build/accountsSqlHandlers.d",
+    "object": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectDemo.build/accountsSqlHandlers.swift.o",
+    "swiftmodule": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectDemo.build/accountsSqlHandlers~partial.swiftmodule",
+    "swift-dependencies": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectDemo.build/accountsSqlHandlers.swiftdeps"
+  },
   "/Users/ifuwo/Projects/PerfectDemo/Sources/main.swift": {
     "dependencies": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectDemo.build/main.d",
     "object": "/Users/ifuwo/Projects/PerfectDemo/.build/debug/PerfectDemo.build/main.swift.o",

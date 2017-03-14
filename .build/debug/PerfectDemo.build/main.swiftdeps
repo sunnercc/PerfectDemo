@@ -5,14 +5,15 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "signupRoutes"
-- "PerfectError"
 - "StringLiteralType"
-- "UnicodeScalarType"
-- "AssignmentPrecedence"
 - "server"
-- "print"
+- "PerfectError"
 - "HTTPServer"
+- "AssignmentPrecedence"
+- "signupRoutes"
+- "UnicodeScalarType"
+- "signupAccounts"
+- "print"
 - "IntegerLiteralType"
 - "FloatLiteralType"
 depends-member:
@@ -194,4 +195,4 @@ depends-external:
 - "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CZlib/include/../zlib.h"
 - "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CZlib/include/../zconf.h"
 - "/Users/ifuwo/Projects/PerfectDemo/Packages/PerfectHTTPServer-2.1.14/Sources/CZlib/include/czlib.h"
-interface-hash: "208df4998b117423f8900931232014fa"
+interface-hash: "2fa546db4aee6686f794b412f29bdd93"

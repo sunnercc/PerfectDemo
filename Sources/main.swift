@@ -10,6 +10,8 @@ server.serverPort = 8181
 
 server.addRoutes(signupRoutes());
 
+server.addRoutes(signupAccounts());
+
 do {
     try server.start()
     
