@@ -5,13 +5,13 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "Routes"
 - "signupAccounts"
-- !private "StringLiteralType"
-- !private "accountsHandler"
-- !private "addURLRoutes"
 - !private "HTTPRequest"
+- "Routes"
 - !private "HTTPResponse"
+- !private "StringLiteralType"
+- !private "addURLRoutes"
+- !private "accountsHandler"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps7CVarArg", "init"]
@@ -19,18 +19,18 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "get"]
 - !private ["Ps23CustomStringConvertible", "init"]
-- !private ["Ps23CustomStringConvertible", "post"]
+- !private ["Ps9Equatable", "get"]
 - !private ["Ps9Equatable", "init"]
-- !private ["Ps9Equatable", "post"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["O11PerfectHTTP10HTTPMethod", "deinit"]
-- !private ["O11PerfectHTTP10HTTPMethod", "post"]
+- !private ["O11PerfectHTTP10HTTPMethod", "get"]
+- !private ["Ps8Hashable", "get"]
 - !private ["Ps8Hashable", "init"]
-- !private ["Ps8Hashable", "post"]
 - !private ["P10PerfectLib15JSONConvertible", "init"]
 - !private ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "init"]
@@ -53,8 +53,8 @@ depends-member:
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "get"]
 - !private ["Ps9_Hashable", "init"]
-- !private ["Ps9_Hashable", "post"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
 - !private "Ps9AnyObject"
