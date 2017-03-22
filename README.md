@@ -14,9 +14,25 @@
 
 ## 操作演示
 
-* 使用xcode打开PerfectDemo程序,并运行.
-     * ![目录结构](https://github.com/chenchenhui/PerfectDemo/blob/master/resources/2.png)
 
-*
+
+* 使用xcode打开PerfectDemo程序,并运行.
+	* ![目录结构](https://github.com/chenchenhui/PerfectDemo/blob/master/resources/2.png)
+
+* 打开数据库(mysql)
+	* ![目录结构](https://github.com/chenchenhui/PerfectDemo/blob/master/resources/3.png)
+	
+* 查看数据库表结构
+	* ![目录结构](https://github.com/chenchenhui/PerfectDemo/blob/master/resources/4.png)
+	
+* 使用app注册一个用户
+	* ![目录结构](https://github.com/chenchenhui/PerfectDemo/blob/master/resources/5.png)
+	
+* 查看数据库内容
+	* ![目录结构](https://github.com/chenchenhui/PerfectDemo/blob/master/resources/6.png)
+	
+* 使用注册过的用户来登录
+	* ![目录结构](https://github.com/chenchenhui/PerfectDemo/blob/master/resources/7.png)
+
 
 
