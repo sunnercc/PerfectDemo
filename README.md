@@ -33,6 +33,12 @@
 	
 * 使用注册过的用户来登录
 	* ![目录结构](https://github.com/chenchenhui/PerfectDemo/blob/master/resources/7.png)
+	
+
+## 资源分享
+
+* perfect官方链接
+	* <https://www.perfect.org/docs/index_zh_CN.html>
 
 
 
